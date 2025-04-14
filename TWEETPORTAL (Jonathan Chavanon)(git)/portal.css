@@ -1,0 +1,87 @@
+/*ce fichier CSS est fait a 80% par chatGPT :*/
+
+body{
+    background-image: url(./img/portalwall.png);
+    background-repeat: repeat;
+    
+  }
+
+  button{
+    padding: 1rem 1rem;
+    border-radius: 5px;
+  }
+  input{
+    border-radius: 5px;
+    padding: 1rem 1rem;
+  }
+#anim{
+    border-radius: 5px;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  /* Styles des portails */
+  .portal {
+    position: absolute;
+    width: 120px; /* Augmenté pour un effet plus grand */
+    height: 240px; /* Augmenté pour un effet plus grand */
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); /* Effet lumineux autour du cercle */
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.9) 100%);
+    animation: portalAnimation 2s infinite; /* Animation pour un effet plus dynamique */
+  }
+
+  /* Portal orange */
+  .portal.orange {
+    top: 10%;
+    left: 10%;
+    background: radial-gradient(circle, rgba(255, 165, 0, 0.8) 0%, rgba(255, 140, 0, 0.3) 70%, rgba(255, 0, 0, 0.2) 100%);
+    animation: portalOrangeAnimation 2s infinite; /* Animation spécifique pour le portail orange */
+  }
+
+  /* Portal bleu */
+  .portal.blue {
+    top: 10%;
+    right: 10%;
+    background: radial-gradient(circle, rgba(0, 191, 255, 0.8) 0%, rgba(0, 123, 255, 0.3) 70%, rgba(0, 0, 128, 0.2) 100%);
+    animation: portalBlueAnimation 2s infinite; /* Animation spécifique pour le portail bleu */
+  }
+
+  /* Animation pour l'effet lumineux du portail orange */
+  @keyframes portalOrangeAnimation {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.8), 0 0 30px rgba(255, 140, 0, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(255, 165, 0, 1.0), 0 0 50px rgba(255, 140, 0, 0.8), 0 0 60px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.8), 0 0 30px rgba(255, 140, 0, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  /* Animation pour l'effet lumineux du portail bleu */
+  @keyframes portalBlueAnimation {
+    0% {
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.8), 0 0 30px rgba(0, 123, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(0, 191, 255, 1.0), 0 0 50px rgba(0, 123, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.8), 0 0 30px rgba(0, 123, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  /* Style du carré */
+  .square {
+    position: absolute;
+    background-image: url('./img/person.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+  }

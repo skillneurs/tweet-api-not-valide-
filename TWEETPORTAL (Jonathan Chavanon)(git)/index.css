@@ -1,0 +1,297 @@
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding: 0rem;
+}
+p{
+  word-break: break-all;
+}
+.boutonlike{
+  padding: 1rem 1rem;
+  border: 1rem;
+  border-radius: 4rem;
+  background-color: blue;
+
+}
+.boutondislike{
+  padding: 1rem 1rem;
+  border: 1rem;
+  border-radius: 4rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: rgb(235, 24, 24);
+}
+.boutonreact{
+  
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  
+}
+.divboite {
+  text-align: center;
+  border-radius: 31px;
+  background: linear-gradient(50deg, hsla(231, 69%, 56%, 0.504) 0%, #e728288d 100%);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid white;
+  -webkit-box-shadow: 1px 1px 12px 4px white; 
+  box-shadow: 1px 1px 12px 4px white;
+}
+body{
+  background-image: url(./img/portalwall.png);
+  background-repeat: repeat;
+  
+ 
+  
+}
+.intro{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  text-decoration: brown;
+}
+.sectionbestlike{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2rem;
+      border-radius: 1rem;
+      margin-left: 31rem;
+      margin-right: 29rem;
+      margin-top: 2rem;
+      background: linear-gradient(50deg, hsla(214, 60%, 32%, 0.295) 0%, #1772ce 100%);
+      -webkit-box-shadow: 1px 1px 12px 4px white; 
+      box-shadow: 1px 1px 12px 4px white;
+      padding: 1rem;
+     
+}
+.listreaction{
+  display: flex;
+}
+
+.tweet-action-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+  
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 1rem; 
+  margin-bottom: 1rem;
+}
+
+.counter-container p {
+  margin: unset;
+  margin-right: 1rem;
+}
+
+.counter-container ul {
+  padding: unset;
+  list-style-type: none;
+
+}
+.btncom {
+  padding: 1rem 1rem;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.pmessage{
+
+  border-bottom: solid 4px rgb(223, 224, 227) ;
+ word-break: break-all;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+#nom{
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+#contenue{
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+#button {
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  margin-right: 5rem;
+}
+.autrebtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+
+}
+p{
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+.boutondelreact{
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+margin-left: 1rem;
+
+}
+.boutonreact:hover{
+  background-color: transparent;
+}
+.boutondislike:hover{
+
+  background-color: firebrick;
+}
+
+.boutonlike:hover{
+background-color: #1772ce;
+}
+.btncom:hover{
+  background-color: transparent;
+}
+#nom:hover{
+  background-color: antiquewhite;
+}
+#contenue:hover{
+  background-color: antiquewhite;
+}
+#button:hover{
+  background-color: antiquewhite;
+}
+#bestlike:hover{
+  background-color: antiquewhite;
+
+}
+#useractif:hover{
+  background-color: antiquewhite;
+
+}
+.boutondelreact:hover{
+  background-color: transparent;
+}
+.testt{
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+margin-right: 1rem;
+
+}
+.testt:hover{
+  background-color: transparent;
+}
+.sousboite{
+  border: 2px solid rgb(242, 243, 243);
+  border-radius: 25px;
+}
+.btnnewcom{
+  padding: 1rem 1rem;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+.btnnewcom:hover{
+  background-color: transparent;
+}
+.pname{
+  display: flex;
+      font-size: 20px;
+      color: white;
+      font-family: sans-serif;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+}
+#bestfrec{
+    display: flex ;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2rem;
+      border-radius: 1rem;
+      margin-left: 31rem;
+      margin-right: 29rem;
+      margin-top: 2rem;
+      background: linear-gradient(50deg, hsla(214, 60%, 32%, 0.295) 0%, #1772ce 100%);
+  }
+  #bigUser{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    margin-left: 31rem;
+    margin-right: 29rem;
+    margin-top: 2rem;
+    background: linear-gradient(50deg, hsla(214, 60%, 32%, 0.295) 0%, #1772ce 100%);
+    padding: 2rem 2rem;
+    word-break: break-all;
+  }
+.back{
+
+  background-color: transparent;
+  border: none;
+  width: 4rem;
+  
+  
+}
+
+#contenue{
+  margin-left: 11rem ;
+}
+#bestlike{
+  border-radius: 1rem;
+}
+.img1{
+  margin-left: 2rem;
+  position: absolute;
+  top: 32rem;
+}
+.img2{
+  position: absolute;
+  top: 39rem;
+  right: 56rem;
+  rotate: 18deg;
+}
+.img3{
+  position: absolute;
+  top: 9rem;
+  right: 13rem;
+  max-width: 100px;
+}
+.img4{
+  position: absolute;
+  top: 24rem;
+  left: 0rem;
+  width: 4rem;
+}
+.img5{
+  position: absolute;
+  top: 14rem;
+  left: 58rem;
+}
+#jeromeveutca{
+  
+  z-index: 900000000000000000;
+  -webkit-box-shadow: 1px 1px 12px 4px rgb(233, 235, 232); 
+  box-shadow: 1px 1px 12px 4px rgb(219, 222, 220);
+  border-radius: 5rem;
+}
+#back{
+  padding: 1rem 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  border: black 1px solid;
+
+}
+.back:hover{
+  background-color: beige;
+}
